@@ -1,0 +1,91 @@
+* {
+    padding:0;
+    margin:0;
+
+}
+
+#divtong {
+    width: 100%;
+    height: 800px;
+    background-color: white;
+
+}
+
+#div_tren {
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    border-bottom: 10px solid green;
+}
+
+#div_tren > .trai {
+     width: 50%;
+    height:100%;
+    /*background: green;*/
+    float: left;
+}
+
+#div_tren >.phai {
+    width: 50%p;
+    height: 100%;
+    float:right;
+    padding-right: 20px;
+}
+
+#div_tren >.phai >.bentren {
+    width: 100%;
+    height:70%;
+    text-align:  right;
+    padding-right: 20px;
+}
+
+#div_duoi {
+    margin-top: 5px;
+    height: 100%;
+    width: 100%;
+}
+
+#div_duoi >.trai {
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-color: rgb(133, 249, 133);
+}
+
+#div_duoi >.trai >.tren {
+    height: 50%;
+    float:left;
+}
+
+
+#div_duoi >.giua {
+    width: 70%;
+    height: 100%;
+    float:left;
+}
+
+#div_duoi >.giua >.trai {
+    width: 10%;
+    height: 100%;
+    float:left;
+}
+
+#div_duoi >.giua >.phai {
+    width: 90%;
+    height: 100%;
+    float:left;
+}
+
+#div_duoi >.duoi_phai {
+    height: 100%;
+    float:left;
+}
+
+#div_duoi >.duoi_phai >.tren {
+    text-align: center;
+}
+
+#div_duoi >.duoi_phai >.duoi{
+    text-align: center;
+    border-left: 10px dotted green ;
+}
